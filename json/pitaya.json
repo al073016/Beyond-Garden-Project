@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:pitaya_fruit",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Pitaya"
+      },
+      "minecraft:icon": {
+        "texture": "pitaya_fruit"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": "normal",
+        "can_always_eat": false
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.rawFood"
+      }
+    }
+  }
+}

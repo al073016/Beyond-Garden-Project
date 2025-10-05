@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:aguacate",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Aguacate"
+      },
+      "minecraft:icon": {
+        "texture": "aguacate"
+      },
+      "minecraft:block_placer": {
+        "block": "custom:aguacate_tree",
+        "use_on": [
+          "dirt",
+          "grass",
+          "podzol"
+        ]
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.sapling"
+      }
+    }
+  }
+}

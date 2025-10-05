@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:limonero",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Limonero"
+      },
+      "minecraft:icon": {
+        "texture": "limonero"
+      },
+      "minecraft:block_placer": {
+        "block": "custom:limonero_tree",
+        "use_on": [
+          "dirt",
+          "grass",
+          "podzol"
+        ]
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.sapling"
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "name": "custom:chernozem",
+  "display_name": "Yucatan Fertile Jungle",
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 6975292,
+    "foliage_color": 5472063,
+    "music": {
+      "sound": "minecraft:music.overworld.jungle",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:ambient.cave"
+  },
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [],
+  "starts": [
+    "minecraft:jungle_pyramid",
+    "minecraft:pillager_outpost",
+    "minecraft:ruined_portal_jungle"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:ocelot",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:parrot",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:panda",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "temperature": 1.1,
+  "downfall": 0.9,
+  "category": "jungle",
+  "depth": 0.1,
+  "scale": 0.2,
+  "surface": {
+    "name": "minecraft:podzol",
+    "properties": {
+      "snowy": "false"
+    }
+  },
+  "vegetation": {
+    "features": {
+      "trees": [
+        
+        {
+          "feature": {
+            "name": "minecraft:oak",
+            "config": {
+              "max_water_depth": 0,
+              "ignore_vines": true,
+              "heightmap": "OCEAN_FLOOR",
+              "sapling_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "name": "minecraft:oak_sapling",
+                  "properties": { "stage": "0" }
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "name": "minecraft:oak_log", "properties": { "axis": "y" } }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "name": "minecraft:oak_leaves", "properties": { "distance": "7", "persistent": "false" } }
+              },
+              "minimum_size": { "type": "minecraft:two_layers_feature_size", "limit": 1, "lower_size": 0, "upper_size": 1 }
+            }
+          },
+          "chance": 0.1
+        },
+      
+        {
+          "feature": {
+            "name": "minecraft:acacia",
+            "config": {
+              "max_water_depth": 0,
+              "ignore_vines": true,
+              "heightmap": "OCEAN_FLOOR",
+              "sapling_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "name": "minecraft:acacia_sapling",
+                  "properties": { "stage": "0" }
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "name": "minecraft:acacia_log", "properties": { "axis": "y" } }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "name": "minecraft:acacia_leaves", "properties": { "distance": "7", "persistent": "false" } }
+              },
+              "minimum_size": { "type": "minecraft:two_layers_feature_size", "limit": 1, "lower_size": 0, "upper_size": 2 }
+            }
+          },
+          "chance": 0.08
+        },
+        
+        {
+          "feature": {
+            "name": "minecraft:oak",
+            "config": {
+              "max_water_depth": 0,
+              "ignore_vines": true,
+              "heightmap": "OCEAN_FLOOR",
+              "sapling_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "name": "minecraft:oak_sapling",
+                  "properties": { "stage": "0" }
+                }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "name": "minecraft:oak_log", "properties": { "axis": "y" } }
+              },
+              "foliage_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "name": "minecraft:oak_leaves", "properties": { "distance": "7", "persistent": "false" } }
+              },
+              "minimum_size": { "type": "minecraft:two_layers_feature_size", "limit": 1, "lower_size": 0, "upper_size": 1 }
+            }
+          },
+          "chance": 0.08
+        }
+      ],
+      "flowers": [
+        {
+          "feature": "minecraft:flower_jungle",
+          "chance": 0.2
+        },
+        {
+          "feature": "minecraft:patch_grass_jungle",
+          "chance": 0.8
+        }
+      ]
+    }
+  }
+}

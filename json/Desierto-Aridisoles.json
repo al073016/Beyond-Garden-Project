@@ -1,0 +1,100 @@
+{
+  "name": "custom:desierto_pitaya",
+  "display_name": "Desierto de Pitayas",
+  "effects": {
+    "sky_color": 12432613,
+    "fog_color": 14734301,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "music": {
+      "sound": "minecraft:music.overworld.desert",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:ambient.cave"
+  },
+  "surface_builder": "minecraft:sand",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [],
+  "starts": [
+    "minecraft:desert_pyramid",
+    "minecraft:desert_well",
+    "minecraft:pillager_outpost",
+    "minecraft:ruined_portal_desert"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 80,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 15,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "temperature": 2.0,
+  "downfall": 0.1,
+  "category": "desert",
+  "depth": 0.125,
+  "scale": 0.05,
+  "surface": {
+    "name": "minecraft:sand",
+    "properties": {}
+  },
+  "vegetation": {
+    "features": {
+      "trees": [],
+      "flowers": [],
+      "grass": [],
+      "other": [
+        {
+          "feature": "minecraft:patch_cactus_decorated",
+          "chance": 0.1
+        },
+        {
+          "feature": "minecraft:patch_dead_bush_2",
+          "chance": 0.2
+        }
+      ]
+    }
+  }
+}  

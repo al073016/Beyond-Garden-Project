@@ -4,8 +4,9 @@ Welcome to the **Beyond Gardens** project, created for the 2025 NASA Space Apps 
 
 Beyond Gardens is an ambitious expansion for Minecraft that completely transforms the game's agriculture into an immersive and educational simulation experience. With this modification, we forget about just planting and waiting; here, each seed is the beginning of a new scientific challenge. This add-on will allow players to explore and master realistic agricultural scenarios, where the success of their crops depends directly on environmental factors based on real data provided by NASA.
 
-You can find the demo and the full project at the following links:  
-###Project: 🚧
+You can find the demo and the full project at the following link:  
+
+### Project: 🚧
 
 
 ## Project Goals:

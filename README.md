@@ -5,10 +5,10 @@ Welcome to the **Beyond Gardens** project, created for the 2025 NASA Space Apps 
 Beyond Gardens is an ambitious expansion for Minecraft that completely transforms the game's agriculture into an immersive and educational simulation experience. With this modification, we forget about just planting and waiting; here, each seed is the beginning of a new scientific challenge. This add-on will allow players to explore and master realistic agricultural scenarios, where the success of their crops depends directly on environmental factors based on real data provided by NASA.
 
 You can find the demo and the full project at the following links:  
-**Project:** 🚧
+###Project: 🚧
 
 
-### Project Goals:
+## Project Goals:
 
 - To design a Minecraft Bedrock add-on that converts open NASA data (soil moisture, precipitation, vegetation vigor, surface temperature) into playable agricultural missions.  
 - To democratize data literacy in a familiar environment (Minecraft) and accelerate practical learning.  
@@ -16,7 +16,7 @@ You can find the demo and the full project at the following links:
 - To offer a layer of strategic and challenging gameplay for veteran Minecraft players.  
 - To serve as a powerful scientific outreach tool capable of being used in advanced educational settings.
 
-### How does it work?
+## How does it work?
 
 The core of Beyond Gardens is its dynamic simulation engine, which integrates real-world information to control crucial in-game variables:
 
@@ -26,7 +26,7 @@ The core of Beyond Gardens is its dynamic simulation engine, which integrates re
 - **Plant Quality of Life:** Plants will have complex needs that depend on a perfect balance of water, sunlight, soil nutrients, and the right temperature.  
 - **Pests:** When planting, crops will be threatened by a pest that you must combat. At the end of each season, players will have to face various creatures that will endanger their entire garden.
 
-### Tools and Technologies Used
+## Tools and Technologies Used
 
 **Software:**  
 - Bridge .: An IDE created specifically to facilitate the creation of add-ons and custom content for Minecraft: Bedrock Edition, where we can edit using the JSON format.  
@@ -37,7 +37,7 @@ The core of Beyond Gardens is its dynamic simulation engine, which integrates re
 - Python: Used to extract necessary information from the datasheets.  
 - JavaScript: Used for programming the entities and behaviors added to the add-on.
 
-### NASA Data and Resources
+## NASA Data and Resources
 
 We extracted the following datasheets from NASA EARTHDATA with the goal of using the obtained parameters to simulate the climatic conditions in our project.
 
